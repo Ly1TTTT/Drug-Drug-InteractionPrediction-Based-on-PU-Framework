@@ -3,8 +3,11 @@ import numpy as np
 from sklearn.decomposition import TruncatedSVD
 
 # 配置参数
-input_files = ['../data/chemical_substructure_vector.csv',
-               '../data/indication_vector.csv',
+input_files = [
+    '../data/chemical_substructure_vector.csv',
+    '../data/indication_vector.csv',
+    '../data/target_vector.csv'
+]
 output_files = ['../data/chemical_substructure_vector_processed.csv',
                 '../data/indication_vector_processed.csv',
                 '../data/target_vector_processed.csv']
