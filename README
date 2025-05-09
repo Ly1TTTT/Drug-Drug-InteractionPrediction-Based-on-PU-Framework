@@ -2,3 +2,7 @@ Python: 3.9.13
 torch:  2.5.1
 numpy:  1.26.4
 pandas: 2.2.3
+
+dataset_double_tower_model:
+test_data.npz: https://github.com/Ly1TTTT/Drug-Drug-InteractionPrediction-Based-on-PU-Framework/releases/download/dataset_double_tower_model/test_data.npz   
+train_data.npz: https://github.com/Ly1TTTT/Drug-Drug-InteractionPrediction-Based-on-PU-Framework/releases/download/dataset_double_tower_model/train_data.npz
